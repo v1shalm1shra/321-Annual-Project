@@ -1,0 +1,98 @@
+/* ********** *
+ * Header CSS *
+ * ********** */
+ 
+/* Header Container */
+.spmr_header {
+	background-color: white;
+	border: 0;
+	margin: 0;
+}
+
+/* Header Content */
+.spmr_header > div > .spmr_header_content {
+	text-align: center;
+	
+	width: 85%;
+	margin: 0 auto;
+}
+
+/* Header Title Div */
+.spmr_header > div > .spmr_header_content > .spmr_header_title {
+}
+/* Header Title Text */
+.spmr_header > div > .spmr_header_content > .spmr_header_title a{
+	color: #595959;
+	font-size: 25px;
+	vertical-align: middle;
+	line-height: 60px;
+}
+
+/* Header Shortcuts Div */
+.spmr_header > div > .spmr_header_content > .spmr_header_shortcuts {
+	
+}
+/* Header Shortcuts Text */
+.spmr_header > div > .spmr_header_content > .spmr_header_shortcuts a,
+.spmr_header > div > .spmr_header_content > .spmr_header_shortcuts a:hover,
+.spmr_header > div > .spmr_header_content > .spmr_header_shortcuts a:focus {
+	color: #595959;
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 60px;
+	
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Header Login Div */
+.spmr_header > div > .spmr_header_user_auth {
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+}
+.spmr_header > div > .spmr_header_user_auth a{
+	color: #595959;
+	font-size: 14px;
+	text-decoration: none;
+	
+	margin: 5px;
+}
+
+
+
+/* ********** *
+ * Footer CSS *
+ * ********** */
+
+ /* Footer Container */
+.spmr_footer {
+	background-color : #0039e6;	
+}
+.spmr_footer > .spmr_footer_section > div {
+	width: 85%;
+	margin: 0 auto;
+}
+
+/* Footer Content */
+.spmr_footer > #footerContent {
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.footerContentTitle {
+	font-size: 32px;
+	padding: 0px;
+}
+.footerContentInfo {
+	font-size: 16px;
+}
+
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+

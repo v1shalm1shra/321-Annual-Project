@@ -1,0 +1,42 @@
+/* ************** *
+ * User Home CSS *
+ * ************** */
+
+/* User Home Container */ 
+.user_home {
+}
+
+/* User Home Section */
+.user_home > .user_home_section {
+	background-color: #4d79ff;
+}
+
+/* User Home Information in Row */
+.user_home > .user_home_section > div {
+	width: 85%;
+	margin: 0 auto;
+}
+.user_home > .user_home_section > div > div {
+}
+
+/* User Home Information */
+div#userContent {
+	font-size: 20px;
+}
+
+/* Content Information for Info1 */
+div#userContent > div#info1 {
+	background-color: #4d79ff;
+	border: 1px solid blue;
+}
+/* Content Information for Info2 */
+div#userContent > div#info2 {
+	background-color: #4d79ff;
+	border: 1px solid blue;
+}
+
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
